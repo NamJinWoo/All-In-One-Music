@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./Melon.css">
+</head>
+<body>
+	<header>
+		<div id="home" onclick="location.href='Main.html'">All In One Music♪</div>
+	</header>
+	<div class="container">
+		<div class="button"
+			onclick="window.open('https://www.melon.com/index.htm')">Melon</div>
+		<div class="button" onclick="location.href='MelonT.html'">이용권 보기</div>
+	</div>
+	<div id="rankTable">
+		<table id="t">
+
+			<thead id="tableHeader">
+				<tr>
+					<th>순위</th>
+					<th>앨범</th>
+					<th id="songinfo">곡정보</th>
+					<th>가수</th>
+					<th>앨범명</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+	<div class="loading"></div>
+	<script src="./Melon.js"></script>
+</body>
+</html>
